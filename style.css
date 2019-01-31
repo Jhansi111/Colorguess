@@ -1,0 +1,76 @@
+
+*{
+	margin: 0px;
+}
+body{
+	background: #232323;
+}
+
+#colDisplay{
+display: block;
+font-size: 200%;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	background-color: #9ACD32;
+	color:white;
+	text-align: center;
+	padding: .8rem 0;
+	line-height: 1.2;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: .1rem;
+}
+
+#container{
+margin: 1rem auto;
+max-width: 600px;
+}
+
+#msg{
+	margin:0 9%;
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.square{
+	background-color: purple;
+   	padding-bottom: 30%;
+	width:30%;
+	float: left;
+	margin:1.66%;
+	border-radius:50%;
+	transition: background-color 0.6s;
+	--webkit-transition:background-color 0.6s;
+	--moz-transition:background-color 0.6s;
+}
+ 
+#stripe{
+	background-color: white;
+	text-align: center;
+	height:1.75em;
+
+}
+.selected{
+	color:white;
+	background-color:#9ACD32 ;
+}
+button{
+	border:none;
+	color:#9ACD32;
+	padding:.32em;
+	background-color: white;
+	font-weight: bolder;
+	font-size: 100%;
+	transition: all 0.3s;
+	--webkit-transition:all 0.3s;
+	--moz-transition:all 0.3s;
+	outline: none;
+}
+button:hover{
+	background-color:#9ACD32;
+	color:white;
+	border:none;
+}
+
